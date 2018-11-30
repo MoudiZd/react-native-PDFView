@@ -119,7 +119,7 @@ export default class App extends React.Component {
           style={{ flex: 1 }}
           resource={resources[resourceType]}
           resourceType={resourceType}
-          onLoad={() => console.log(`PDF rendered from ${resourceType}`);}
+          onLoad={() => console.log(`PDF rendered from ${resourceType}`)}
           onError={() => console.log('Cannot render PDF', error)}
         />
       </View>
